@@ -1,0 +1,259 @@
+
+#pit{
+	font-size: 2.2em;
+	font-weight:bolder;
+    font-style: italic;	
+    color: rgb(3, 0, 3);
+   	opacity: 4; 
+   	text-shadow: 7px 6px 8px #55DD88;
+   	text-align: center;	
+   	}
+#pit1{
+	font-size: 2.2em;
+	font-weight:bolder;
+    font-style: italic;	
+    color: rgb(3, 0, 3);
+   	opacity: 4; 
+   	text-shadow: 7px 6px 8px #f80505;
+   	text-align: center;	
+   	}
+#pit2{
+	font-size: 2.2em;
+	font-weight:bolder;
+    font-style: italic;	
+    color: rgb(3, 0, 3);
+   	opacity: 4; 
+   	text-shadow: 7px 6px 8px #fbff03;
+   	text-align: center;	
+   	}		
+		
+header{
+	width: 1000px;
+}
+footer{
+	padding-top: 20px;
+	height: 60px;
+	background-color: #c5c5c5;
+	border-top: 2px solid #aaa;
+	text-align:center;
+}
+
+.table{
+	position:fixed;
+	background-color: #a097a8;
+	border-radius:10px;
+	width:95%;
+	left: 35px;
+	border: 5px solid ;
+	text-align: center;
+}
+
+.submenu {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+li a:hover {
+	background-color: #868383;
+}
+
+.submenu {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	box-shadow: 0px 8px 16px 0px rgba(117, 101, 101, 0.2);
+}
+
+.submenu a {
+	color: rgb(17, 16, 16);
+	padding: 10px 12px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.submenu a:hover {
+	background-color: #ddd;
+}
+
+li:hover .submenu {
+	display: block;
+}
+
+
+
+.menu-ind:hover{
+	border-top:5px solid rgb(167, 211, 47);
+	background-color: rgba(405,180,245,0.25);
+} 
+.menu-reg-log:hover{
+	border-top:5px solid #5b8;
+	background-color: rgba(300,180,45,0.25);
+}
+.menu-test:hover{
+	border-top:5px solid rgb(127, 243, 12);
+	background-color: rgba(196, 17, 109, 0.25);
+}
+
+.menu-reg-log:hover{
+	border-top:5px solid rgb(218, 169, 34);
+	background-color: rgba(300,180,45,0.25);
+}
+.menu-reg-pls:hover{
+	border-top:5px solid rgb(212, 19, 212);
+	background-color: rgba(300,180,45,0.25);
+}
+
+
+.menu-cont:hover{
+	border-top:5px solid rgb(11, 34, 240);
+	background-color: rgba(236, 117, 4, 0.14);
+}
+.menu-reg-lin{
+	border-top:5px solid rgb(62, 64, 83);
+	background-color: rgba(27, 185, 177, 0.14);
+}
+.menu-acp:hover{
+	border-top:5px solid rgb(113, 245, 47);
+	background-color: rgba(9, 170, 30, 0.637);
+}
+
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+section{
+	position: 97px 58px;
+	width: 99.5%;
+	min-height: 300px;
+	padding-bottom:10px; 
+	margin-bottom:06px;
+}
+img{
+	width:400px;
+	height:300px;
+	img position: 97px 280px; 
+}
+
+.da{
+	float: left;
+	width: 30%;
+}
+.db{
+	float: right;
+	width: 70%;
+}
+.dc, .dd, .de, .df{
+	float: left;
+	width: 50%
+
+}
+.block::after, .d1:: after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.s1{
+	border-top: 60px solid #02dc40;
+	border-right:7px solid #02dc40; 
+	border-left:7px solid #02dc40;
+	border-bottom:7px solid #02dc40; 
+	background-color:rgba(70, 216, 141, 0.219);
+}
+.s2{
+	border-top: 7px solid #ff0000;
+	border-right:7px solid #ff0000; 
+	border-left:7px solid #ff0000;
+	border-bottom:7px solid #ff0000;
+	background-color:rgba(240, 11, 70, 0.15);
+
+	background-image: url("photos1.jpg"), url("photos2.jpg"), url("photos3.jpg");
+  	background-size: 40%, 20%,30%;
+  	background-repeat:no-repeat, no-repeat, no-repeat;
+  	background-position: 15px 150px, 560px 210px, 850px 150px;
+	height: auto;
+
+}
+	
+.s3{
+	border-top: 7px solid #fddd08;
+	border-right: 7px solid #fddd08;
+	border-bottom: 16px solid #fddd08;
+	border-left: 07px solid #fddd08;
+	background-color:rgba(240, 211, 70, 0.15);
+}
+
+/*.d2{
+	float:left;
+	width:30%; 
+}*/
+
+
+.d1{
+	margin: 0px 7%;
+}
+img{
+	position: absolute;
+	top:250px; 
+	left:20px;
+
+} 
+
+body{
+
+	background-image: url("enspm.png");
+	background-size: 30%;
+	background-repeat:no-repeat;
+	background-position: 850px 210px;
+}
+
+#pit3{
+	font-size: 2.2em;
+	font-weight:bolder;
+    font-style: italic;	
+    color: rgb(3, 0, 3);
+   	opacity: 4; 
+   	text-shadow: 7px 6px 8px #7003ff;
+   	text-align: center;	
+   	}
+
+
+.contact{
+		border-top: 60px solid #0db6e9;
+		border-right: 7px solid #0db6e9;
+		border-bottom: 10px solid #0db6e9;
+		border-left: 7px solid #0db6e9;
+		background-color:rgba(8, 164, 236, 0.15);
+		
+}	
+
+.context{
+	margin: 0px 7%;
+}
+
+	
